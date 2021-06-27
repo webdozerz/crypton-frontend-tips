@@ -1,12 +1,12 @@
 <template>
   <div>
-    <welcome />
+    <stack />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Index',
+  name: 'StackPage',
 };
 </script>
 
