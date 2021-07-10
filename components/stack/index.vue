@@ -13,11 +13,11 @@
       <ul>
         <li>
           <a
-            href="https://ru.nuxtjs.org/"
+            href="https://learn.javascript.ru/"
             target="_blank"
           >
-            NuxtJS
-          </a> - Vue фреймворк (фреймворк для фреймворка).
+            JavaScript (ES2015+)
+          </a> - Куда же без него. Знать обязательно.
         </li>
         <li>
           <a
@@ -29,11 +29,11 @@
         </li>
         <li>
           <a
-            href="https://learn.javascript.ru/"
+            href="https://ru.nuxtjs.org/"
             target="_blank"
           >
-            JavaScript (ES2015+)
-          </a> - Куда же без него. Знать обязательно.
+            NuxtJS
+          </a> - Vue фреймворк (фреймворк для фреймворка).
         </li>
         <li>
           <a
@@ -53,7 +53,7 @@
         </li>
       </ul>
       <p>
-        Библиотеки, с которыми ты будешь работать (практически всегда):
+        Библиотеки, с которыми ты будешь работать:
       </p>
       <ul>
         <li>
@@ -64,29 +64,39 @@
             Axios
           </a> - HTTP-клиент, основанный на промисах.
         </li>
+        <li>
+          <a
+            href="https://vee-validate.logaretm.com/"
+            target="_blank"
+          >
+            VeeValidate
+          </a> - Библиотека для валидации форм.
+        </li>
+        <li>
+          <a
+            href="https://i18n.nuxtjs.org/"
+            target="_blank"
+          >
+            i18n
+          </a> - Локализация
+        </li>
+        <li>
+          <a
+            href="https://www.npmjs.com/package/bignumber.js"
+            target="_blank"
+          >
+            BigNumber.js
+          </a> - Библиотека JavaScript для десятичной и недесятичной арифметики произвольной точности.
+        </li>
+        <li>
+          <a
+            href="https://www.npmjs.com/package/chart.js"
+            target="_blank"
+          >
+            Chart.js
+          </a> - Библиотека для построения графиков.
+        </li>
       </ul>
-      Пример, реализующий получение данных (вызываем в actions):
-      <div v-highlight>
-        <pre class="language-javascript">
-            <code>
-              async fetchSomething({ commit }) {
-              const response = await this.$axios.$get('https://example.com/api/method');
-              return response;
-            }
-            </code>
-        </pre>
-      </div>
-      Пример, реализующий отправку данных:
-      <div v-highlight>
-        <pre class="language-javascript">
-            <code>
-              async postSomething({ commit }) {
-              const response = await this.$axios.$post('https://example.com/api/method');
-              return response;
-            }
-            </code>
-        </pre>
-      </div>
     </v-card>
   </div>
 </template>
