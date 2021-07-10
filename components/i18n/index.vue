@@ -1,10 +1,9 @@
 <template>
   <div>
     <v-alert
-      border="top"
-      colored-border
       type="info"
-      elevation="2"
+      dense
+      outlined
       class="mt-2 code"
     >
       Всегда оборачивайте текст на странице в переменные локализации. Даже если дальнейшая локализация на проекте не предусмотрена.

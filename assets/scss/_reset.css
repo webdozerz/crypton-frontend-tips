@@ -110,3 +110,11 @@ button {
   border: none;
   outline: none;
 }
+
+h4, .h4 {
+  color: #11c3cb !important;
+}
+
+.v-application a {
+  color: #938cff !important;
+}

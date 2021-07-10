@@ -54,7 +54,6 @@
         dark
         tile
         class="pa-2"
-        height="100"
         min-height="100vh"
       >
         <nuxt />
@@ -69,7 +68,10 @@
         class="text-center"
         cols="12"
       >
-        {{ new Date().getFullYear() }} — <a href="https://t.me/webdozerz" target="_blank"><strong>Iliya Andrushov</strong></a>
+        {{ new Date().getFullYear() }} — <a
+          href="https://t.me/webdozerz"
+          target="_blank"
+        ><strong>Iliya Andrushov</strong></a>
       </v-col>
     </v-footer>
   </v-app>
