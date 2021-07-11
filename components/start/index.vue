@@ -74,6 +74,7 @@
         type="info"
         dense
         outlined
+        class="code"
       >
         Для переключения между версиями Node.js рекомендую использовать
         <a
@@ -107,6 +108,23 @@
       <p>
         Не забудь поставить галочку в пункте "Run eslint --fix on save"
       </p>
+    </v-card>
+    <v-card
+      elevation="2"
+      class="wrap mt-2"
+    >
+      <h4>Дополнительно</h4>
+      <v-alert
+        type="info"
+        dense
+        outlined
+        class="code mt-3"
+      >
+        Не забывайте задавать в новом проекте название сайта (<code>title</code>) и его описание (<code>description</code>). Эти данные необходимо заполнить в файле <code>nuxt.config.js</code>. Самому придумывать их не надо. Вы сможете их взять либо из описания проекта в redmine, либо попросить у менеджера проекта. В <code>package.json</code> необходимо указать <code>name</code> проекта. Его можно составить самому, взяв за основу тот же<code>title</code>.
+        <p class="mb-0">
+          Также в корне проекта должен находиться заполненный <code>readme.md</code> файл.
+        </p>
+      </v-alert>
     </v-card>
   </div>
 </template>

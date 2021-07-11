@@ -91,6 +91,7 @@
         dense
         outlined
         class="mt-3"
+        max-width="1100px"
       >
         В данном случае, для присвоения модификатора ссылкам (тег <code>nuxt-link</code>), необходимо использовать props  <code> exact-active-class.</code>
         <pre class="language-javascript">

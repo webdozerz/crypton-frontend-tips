@@ -126,3 +126,8 @@ h4, .h4 {
 div pre[class*="language-"] {
   box-shadow: 0 0 0 0 black !important;
 }
+
+.theme--light.v-application code {
+  background-color: rgb(47 47 47);
+  color: white;
+}
