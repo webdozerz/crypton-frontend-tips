@@ -83,8 +83,10 @@ export default {
       drawer: true,
       items: [
         { title: 'Введение', icon: 'mdi-coffee-outline', path: '/' },
+        { title: 'Начало работы', icon: 'mdi-timeline-check-outline', path: '/start' },
         { title: 'Стек технологий', icon: 'mdi-cog-outline', path: '/stack' },
         { title: 'БЭМ', icon: 'mdi-page-layout-header', path: '/bem' },
+        { title: 'Нейминг', icon: 'mdi-tag-text-outline', path: '/naming' },
         { title: 'Локализация', icon: 'mdi-format-text', path: '/i18n' },
         { title: 'Axios', icon: 'mdi-arrow-left-right', path: '/axios' },
         { title: 'NuxtJS', icon: 'mdi-nuxt', path: '/nuxt' },
