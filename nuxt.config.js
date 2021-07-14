@@ -1,6 +1,9 @@
 export default {
   ssr: false,
   target: 'static',
+  router: {
+    base: '/crypton-frontend-tips/',
+  },
   head: {
     title: 'Crypton Frontend Flow',
     meta: [
