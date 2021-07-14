@@ -19,6 +19,11 @@ export default {
     { src: '@plugins/injectComponents.js' },
     { src: '@plugins/highlight.js' },
   ],
+  build: {
+    babel: {
+      compact: false,
+    },
+  },
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
