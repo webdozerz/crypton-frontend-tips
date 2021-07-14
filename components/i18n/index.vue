@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h4>Интернационализация</h4>
+    <h4>Локализация</h4>
     <p class="mt-3">
-      Сразу начну с общего требования
+      Начнем с общего требования
     </p>
     <v-alert
       type="info"
@@ -41,7 +41,7 @@
         class="language-javascript"
       >
             <code>
-              {{ this.$t('keyName.value') }}
+              {{ $t('parent.child') }}
             </code>
         </pre>
     </div>
