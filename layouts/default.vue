@@ -90,6 +90,7 @@ export default {
         { title: 'Локализация', icon: 'mdi-format-text', path: '/i18n' },
         { title: 'Axios', icon: 'mdi-arrow-left-right', path: '/axios' },
         // { title: 'NuxtJS', icon: 'mdi-nuxt', path: '/nuxt' },
+        // { title: 'Валидация', icon: 'mdi-nuxt', path: '/nuxt' },
       ],
       right: null,
     };
