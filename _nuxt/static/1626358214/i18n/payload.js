@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/i18n", {data:[{}],fetch:{},mutations:void 0});
