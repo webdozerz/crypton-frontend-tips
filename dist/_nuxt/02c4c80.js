@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{358:function(t,e,n){"use strict";n.r(e);var c={name:"StackPage"},l=n(27),component=Object(l.a)(c,(function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("stack")],1)}),[],!1,null,"09abf908",null);e.default=component.exports;installComponents(component,{Stack:n(204).default})}}]);
