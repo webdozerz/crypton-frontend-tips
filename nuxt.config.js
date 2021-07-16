@@ -41,5 +41,21 @@ export default {
   modules: [
     '@nuxtjs/style-resources',
     'bootstrap-vue/nuxt',
+    '@nuxtjs/firebase',
   ],
+  firebase: {
+    config: {
+      apiKey: 'AIzaSyDfKBqPimZdhWaQLfv94v18asotNZw6HD8',
+      authDomain: 'crypton-frontend-flow.firebaseapp.com',
+      projectId: 'crypton-frontend-flow',
+      storageBucket: 'crypton-frontend-flow.appspot.com',
+      messagingSenderId: '490753099829',
+      appId: '1:490753099829:web:71752391e277f7ef78c97c',
+    },
+    services: {
+      firestore: true,
+      functions: true,
+      database: true,
+    },
+  },
 };
