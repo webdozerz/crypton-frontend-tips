@@ -15,8 +15,6 @@ export default {
     '@/assets/scss/main.scss',
   ],
   plugins: [
-    { src: '@plugins/main.js' },
-    { src: '@plugins/injectComponents.js' },
     { src: '@plugins/highlight.js' },
   ],
   build: {
@@ -30,7 +28,7 @@ export default {
     '@nuxtjs/vuetify',
   ],
   styleResources: {
-    scss: ['./assets/scss/resourses.scss'],
+    scss: ['./assets/scss/resources.scss'],
   },
   modules: [
     '@nuxtjs/style-resources',

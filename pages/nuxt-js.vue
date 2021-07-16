@@ -1,5 +1,5 @@
 <template>
-  <Nuxt-component />
+  <div />
 </template>
 
 <script>
