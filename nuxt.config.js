@@ -4,6 +4,9 @@ export default {
   router: {
     base: '/crypton-frontend-tips/',
   },
+  generate: {
+    fallback: '404.html',
+  },
   head: {
     title: 'Crypton Frontend Flow',
     meta: [
