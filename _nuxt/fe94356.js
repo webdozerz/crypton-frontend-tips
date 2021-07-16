@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{361:function(e,n,t){"use strict";t.r(n);var l={name:"Index"},o=t(27),component=Object(o.a)(l,(function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("welcome")],1)}),[],!1,null,"196295fb",null);n.default=component.exports;installComponents(component,{Welcome:t(203).default})}}]);
