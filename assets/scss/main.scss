@@ -18,3 +18,13 @@
 .wrap {
   padding: 10px;
 }
+
+@include _575 {
+  code {
+    word-break: break-all !important;
+    white-space: pre-line !important;
+  }
+  div pre[class*="language-"] {
+    padding-right: 5px !important;
+  }
+}
